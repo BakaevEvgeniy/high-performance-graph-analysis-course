@@ -5,7 +5,6 @@ from pygraphblas.descriptor import R, RC
 
 
 def bfs(graph: Matrix, start_vertex: int) -> List[int]:
-
     n = graph.ncols
     q = Vector.sparse(BOOL, n)
     used = Vector.sparse(BOOL, n)
