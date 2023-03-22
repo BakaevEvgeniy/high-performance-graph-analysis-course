@@ -4,3 +4,4 @@ pygraphblas
 pygraphviz
 pytest
 scipy
+networkx
