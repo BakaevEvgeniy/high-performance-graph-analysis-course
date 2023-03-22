@@ -1,6 +1,6 @@
 black
 pre-commit
 pygraphblas
+pygraphviz
 pytest
 scipy
-pygraphviz
