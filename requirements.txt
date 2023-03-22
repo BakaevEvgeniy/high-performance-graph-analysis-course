@@ -3,3 +3,4 @@ pre-commit
 pygraphblas
 pytest
 scipy
+pygraphviz
