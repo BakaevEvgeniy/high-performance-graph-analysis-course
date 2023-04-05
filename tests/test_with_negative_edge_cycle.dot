@@ -1,0 +1,5 @@
+digraph  {
+0 -> 1 [label=5];
+1 -> 2 [label=-10];
+2 -> 0 [label=5];
+}
