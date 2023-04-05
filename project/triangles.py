@@ -5,7 +5,7 @@ from pygraphblas.descriptor import R, RC, S
 
 
 def triangles_for_each_vertex(graph: Matrix) -> List[int]:
-    """Counts the number of triangles that include each vertex in the given undirected graph. 
+    """Counts the number of triangles that include each vertex in the given undirected graph.
 
     Args:
         graph (Matrix): undirected graph as an adjacency matrix
@@ -20,7 +20,7 @@ def triangles_for_each_vertex(graph: Matrix) -> List[int]:
 
 
 def triangles_cohen(graph: Matrix) -> int:
-    """ Counts the number of triangles in an undirected graph using Cohen's algorithm.
+    """Counts the number of triangles in an undirected graph using Cohen's algorithm.
 
     Args:
         graph (Matrix): undirected graph as an adjacency matrix
@@ -33,7 +33,7 @@ def triangles_cohen(graph: Matrix) -> int:
 
 
 def triangles_sandia(graph: Matrix) -> int:
-    """ Counts the number of triangles in an undirected graph using Sandia algorithm.
+    """Counts the number of triangles in an undirected graph using Sandia algorithm.
 
     Args:
         graph (Matrix): undirected graph as an adjacency matrix
