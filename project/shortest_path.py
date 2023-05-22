@@ -31,10 +31,11 @@ def multiple_source_bellman_ford(
     for i, start in enumerate(start_vertices):
         dist[i, start] = 0
 
-    for _ in range(n):
+    for iter_num in range(n):
         old = dist
         dist = dist.mxm(graph, FP64.MIN_PLUS)
         if old.iseq(dist):
+            print(f"Finish on {iter_num}/{n} iteration (finish/max).")
             return [
                 (
                     start,
